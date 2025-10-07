@@ -27,27 +27,10 @@ Requirements:
 Setup & Installation:
 
 1. Clone this repository.
-2. Install Python packages:
-   pip install -r requirements.txt
-3. Configure AWS and MySQL credentials in config.ini:
-   [AWS]
-   access_key = YOUR_KEY
-   secret_key = YOUR_SECRET
-   bucket = YOUR_BUCKET_NAME
-
-   [MYSQL]
-   host = localhost
-   user = root
-   password = password
-   database = backup_db
+2. Install Python packages
+3. Configure AWS and MySQL credentials in config.ini
 4. Create the MySQL table:
-   CREATE TABLE backups (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       file_name VARCHAR(255),
-       status VARCHAR(20),
-       backup_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-   );
-
+  
 Usage:
 1. Compress logs manually (for demo):
    ./backup_logs.sh
