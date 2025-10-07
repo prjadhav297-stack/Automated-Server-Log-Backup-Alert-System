@@ -1,5 +1,5 @@
 # Automated-Server-Log-Backup-Alert-System
-Goal: Automatically back up server logs daily, store details in a MySQL database, and send an alert if something fails.
+Goal: Automatically back up server logs daily, store details in a MySQL database, and send an alert if something fails (Optionl).
 
 This project automates the backup of server logs, uploads them to AWS S3, and stores backup information in a MySQL database. 
 It also allows sending alerts in case of failures. 
@@ -14,8 +14,7 @@ Features:
 - Fully automated with cron (can simulate in WSL)
 
 Workflow Diagram:
-[Linux Logs] --> [Bash Compress] --> [Python Upload to S3] --> [MySQL Logging] --> [Email Alert]
-
+[Linux Logs] --> [Bash Compress] --> [Python Upload to S3] --> [MySQL Logging] 
 Requirements:
 - WSL (Ubuntu) or Linux system
 - Python 3.x
