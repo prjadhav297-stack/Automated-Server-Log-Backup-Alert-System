@@ -27,9 +27,9 @@ Requirements:
 Setup & Installation:
 
 1. Clone this repository.
-2. Install Python packages
-3. Configure AWS and MySQL credentials in config.ini
-4. Create the MySQL table:
+2. Install Python packages.
+3. Configure AWS and MySQL credentials in config.ini.
+4. Create the MySQL table.
   
 Usage:
 1. Compress logs manually (for demo):
