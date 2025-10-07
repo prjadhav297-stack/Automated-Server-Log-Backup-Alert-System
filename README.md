@@ -26,8 +26,7 @@ Requirements:
 
 Setup & Installation:
 
-1. Clone this repository:
-   git clone https://github.com/yourusername/server-log-backup-automation.git
+1. Clone this repository.
 2. Install Python packages:
    pip install -r requirements.txt
 3. Configure AWS and MySQL credentials in config.ini:
