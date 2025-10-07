@@ -1,4 +1,4 @@
-# Automated-Server-Log-Backup-Alert-System
+# Automated-Server-Log-Backup-System
 Goal: Automatically back up server logs daily, store details in a MySQL database, and send an alert if something fails (Optionl).
 
 This project automates the backup of server logs, uploads them to AWS S3, and stores backup information in a MySQL database. 
