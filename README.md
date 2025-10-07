@@ -31,6 +31,7 @@ Setup & Installation:
 4. Create the MySQL table.
   
 Usage:
+
 1. Compress logs manually (for demo):
    ./backup_logs.sh
 
